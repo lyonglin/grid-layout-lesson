@@ -1,0 +1,23 @@
+.row{
+    margin: 0 0 20px;
+
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.column{
+
+    background: rgb(98, 125, 77);
+    height: 200px;
+    width: 23%;
+    float: left;
+    margin:0 1% ;
+}
+/* .column:first-child{
+    margin-left: 0;
+}
+.column:last-child{
+    margin-right: 0;
+} */
